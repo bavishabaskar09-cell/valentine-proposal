@@ -10,6 +10,15 @@ body {
   background: linear-gradient(to right, #ff9a9e, #fad0c4);
   padding: 50px;
   overflow: hidden;
+  <audio id="bgm" loop>
+  <source src="content://media/external/downloads/1000121866" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", function () {
+  document.getElementById("bgm").play();
+});
+</script>
 }
 
 h1 {
